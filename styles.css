@@ -1,0 +1,104 @@
+/* Estilos básicos para la interactividad y decoración */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    background-image: url(sampe.jpg);
+}
+
+header {
+    background-color: rgb(3, 87, 87);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.image-slider {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+   
+    border-radius: 8px;
+}
+
+.image-slider img {
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.image-slider img:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: #0077ee;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.history {
+    background-color: #1a8dff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgb(0, 0, 0)d0d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.a {
+color: black;
+}
+
+.otro{
+    background-color: aqua;
+    padding: 1opx 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.center{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
